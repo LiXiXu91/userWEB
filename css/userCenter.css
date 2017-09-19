@@ -1,0 +1,342 @@
+li {
+    list-style: none;
+}
+
+body, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header, .main, footer {
+    width: 1400px;
+    margin: 0 auto;
+    box-shadow: 0 0 1px 1px #eee;
+}
+
+#content {
+    box-shadow: 0 0 3px 1px #eee;
+}
+
+.active {
+    display: block;
+}
+
+nav .menu .activeNav {
+    background: #f90;
+    color: #fff;
+}
+
+.head_menue .usActive {
+    color: #f90;
+    font-weight: 600;
+}
+
+.head_menue p a:hover {
+    color: #f90;
+    font-weight: 600;
+}
+
+.menu a:hover {
+    background: #f90;
+    color: #fff;
+}
+
+@media screen and (max-width: 1400px) {
+    #test {
+        width: 50px;
+        height: 10px;
+        background: #f90;
+    }
+
+    header, .main, footer {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+.cla {
+    display: block;
+    content: '';
+    height: 0;
+    clear: both;
+}
+
+.top {
+    background: rgba(70, 73, 74, 1);
+    text-align: right;
+}
+
+.top .Qt {
+    display: inline-block;
+    width: 160px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    font-size: 14px;
+    border-radius: 2px 0 0 2px;
+    background: #f90;
+    color: #fff;
+    position: relative;
+}
+
+.top .hidQt {
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: 260px;
+    width: 160px;
+    height: 160px;
+    z-index: 1;
+}
+
+.top .Qt:hover {
+    background: #FF7A06;
+    color: #fff;
+}
+
+.head_menue {
+    height: 80px;
+    background: rgba(255, 239, 237, 0.4);
+    position: relative;
+}
+
+.head_menue img {
+    width: 100px;
+    height: 80px;
+}
+
+.head_menue p {
+    text-align: right;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.head_menue p a {
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #222;
+    font-weight: 600;
+}
+
+.warp {
+    width: 100%;
+    height: 170px;
+    background-image: url(../images/bannar.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.warp nav {
+    width: 100%;
+    height: 36px;
+    background: rgba(255, 122, 6, 0.1);
+}
+
+nav .menu {
+    width: 1000px;
+    padding-left: 200px;
+}
+
+nav .menu li {
+    float: left;
+    text-align: center;
+}
+
+nav .menu li + li {
+    border-left: 1px solid pink;
+}
+
+nav .menu a {
+    display: inline-block;
+    width: 140px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    color: #222;
+}
+
+.head_foot {
+    width: 100%;
+    height: 115px;
+    padding-top: 15px;
+}
+
+.head_foot .headImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 120px;
+    border: 1px solid #FFD7A1;
+    margin-left: 40px;
+    float: left;
+}
+
+.head_foot .headMessage {
+    float: left;
+    width: 600px;
+}
+
+.head_foot .headMessage p {
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+}
+
+.head_foot .headMessage > p:nth-child(1) {
+    border-bottom: 1px solid #FFD7A1;
+}
+
+.headMessage > p:nth-child(1) a {
+    font-size: 12px;
+    color: #222;
+}
+
+.head_foot .headMessage > p:nth-child(2) a {
+    display: inline-block;
+    width: 60px;
+    height: 26px;
+    border: 1px solid skyblue;
+    border-radius: 3px;
+    line-height: 26px;
+    text-align: center;
+    color: #222;
+    font-size: 12px;
+}
+
+.head_foot .headMessage > p:nth-child(2) .team {
+    padding-left: 60px;
+}
+
+.head_foot .headMessage > p:nth-child(2) .integral, .head_foot .headMessage > p:nth-child(1) span {
+    padding-right: 20px;
+}
+
+.head_foot .headMessage > p:nth-child(2) .team em, .head_foot .headMessage > p:nth-child(2) .integral em {
+    color: #FF7A06;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+section {
+    width: 100%;
+    background: #fff;
+    color: #000;
+    display: none;
+    min-height: 640px;
+}
+
+.main_wap, .main_account, .task_content, .purchase_content, .dat_content, .team_content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.task_content, .purchase_content, .dat_content, .team_content {
+    padding-top: 30px;
+}
+
+.main_wap .chart {
+    width: 240px;
+    height: 240px;
+    border-radius: 240px;
+    border: 1px solid #FF7A06;
+    margin-top: 100px;
+}
+
+.main_wap li {
+    float: left;
+}
+
+.main_wap li + li {
+    margin-left: 206px;
+}
+
+.main_wap li span {
+    border-radius: 26px;
+    display: block;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid #FF7A06;
+    margin-top: 100px;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.main_account p {
+    width: 100%;
+    height: 70px;
+    border: 1px solid #eee;
+    position: relative;
+    border-top: none;
+}
+
+.main_account p span {
+    position: absolute;
+    top: 24px;
+    left: 10px;
+}
+
+.main_account p a {
+    position: absolute;
+    top: 20px;
+    left: 270px;;
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #FFD7A1;
+    border-radius: 5px;
+    text-align: center;
+    color: #222;
+}
+
+.main_account p a + a {
+    position: absolute;
+    top: 20px;
+    left: 360px;
+    color: #222;
+}
+
+.main_account p a:hover {
+    background: #FF7A06;
+    color: #fff;
+}
+
+.account .tabl {
+    width: 100%;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.account .tabl li + li {
+    border-top: 1px solid #eee;
+}
+
+.account .tabl li a {
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 10px;
+    color: #222;
+}
+
+footer {
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    background: #ddd;
+    color: #fff;
+}
